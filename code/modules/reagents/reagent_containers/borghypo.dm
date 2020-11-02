@@ -14,7 +14,7 @@
 	var/recharge_time = 5 //Time it takes for shots to recharge (in seconds)
 	var/bypass_protection = FALSE // If true, can inject through things like spacesuits and armor.
 
-	var/list/reagent_ids = list("tricordrazine", "inaprovaline", "anti_toxin", "tramadol", "dexalin" ,"spaceacillin")
+	var/list/reagent_ids = list("inaprovaline", "anti_toxin", "tramadol", "dexalin" ,"spaceacillin", "bicardine", "kelotane") // VOREstation edit; allows Bicard and Kelo to these to be as effective as their sleeper modules. Removes tricord since it's just atoxin+ina which they already have.
 	var/list/reagent_volumes = list()
 	var/list/reagent_names = list()
 
